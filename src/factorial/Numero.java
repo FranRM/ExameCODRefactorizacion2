@@ -11,7 +11,7 @@ public class Numero {
     /**
      * Este metodo se ocupa de calcular el factorial
      * (la multiplicacion de un numero por todos los menores a el hasta el cero) 
-     * del numero indicado.
+     * del numero indicado y lo imprime.
      */
     public void calculo(){
     if (j == 0)
