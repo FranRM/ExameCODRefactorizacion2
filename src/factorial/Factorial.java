@@ -1,38 +1,17 @@
-
 package factorial;
-
-
+/**
+ * Clase principal.
+ * @author femio23
+ */
 public class Factorial {
-
+/**
+ * El main principalmente se encarga de ejecutar los metodos incluidos en la clase Factorial.
+ * @param args 
+ */
 
     public static void main(String[] args) {
-
-
-    int j;
-    int f;
-
-  
-   j = 8;    
-   
-
-    
-   int i;
-   if (j == 0)
-f = 1;
-   else
-   {
-f = 1;
-for (i = j; i >= 1; i--)
-{
-    f = f * i;
-}
-   }    
-  
- 
-
-System.out.println(f); 
-
-
+        Numero n1=new Numero();
+        n1.calculo();
     }
     
 }
